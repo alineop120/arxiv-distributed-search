@@ -67,7 +67,7 @@ public class ServerC {
         }
 
         if (results.isEmpty()) {
-            return "⚠️ Nenhum resultado encontrado para a consulta.";
+            return "⚠️ Servidor C não retornou resultados para a sua busca.";
         }
 
         return results.toString();
