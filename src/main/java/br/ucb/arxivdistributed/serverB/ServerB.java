@@ -65,7 +65,7 @@ public class ServerB {
         }
 
         if (results.isEmpty()) {
-            return "⚠️ Nenhum resultado encontrado para a consulta.";
+            return "⚠️ Servidor B não retornou resultados para a sua busca.";
         }
 
         return results.toString();
